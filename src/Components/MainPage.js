@@ -8,7 +8,7 @@ export default class MainPage extends Component {
             message:"Something to be shared !!",
             title: "Share"
         },{
-
+            
         })
     }
 
