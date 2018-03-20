@@ -9,6 +9,14 @@ export default class MainPage extends Component {
     });
   };
 
+  static navigationOptions = {
+    headerBackTitle: null,
+    title: "PDF Share and View",
+    headerStyle: { backgroundColor: "#244F8C", borderBottomColor: "#244F8C" },
+    headerTitleStyle: { color: "white", alignSelf: "center", fontSize: 15 },
+    headerTintColor: "white"
+  };
+
   render() {
     return (
       <View style={{ flex: 1 }}>
